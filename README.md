@@ -16,21 +16,27 @@ online broadcasting of a video / audio stream on a third-party resource, for exa
 Decision:
 
 • Install Mixxx - http://mixxx.org
+
 • Install Virtual Audio Cable (VAC) - https://vac.muzychenko.net/en/download.htm
+
 • Install VLC media player - https://www.videolan.org/
+
 • Reboot your operating system.
       
 • Go to the website at https://zeno.fm/ and register.
+
 • Create and connect your internet radio station to the Mixxx software on your PC.
       
 • Launch the VAC Control Panel program and make sure you have one virtual cable (channel).
 Do not close the program before the end of the broadcast!
+
 • Launch and configure Mixxx - on the Sound Hardware tab, select Sound APIs - Windows WDM-KS
 and select - Line 1 (Virtual Cabel 1 - Channels 1-2) as the auxiliary input device. Apply the settings (Apply -> OK).
 Do not close the program before the end of the broadcast!
 
 • Run and configure the VLC media player program - on the "Audio" tab, select "Audio device" from the drop-down
 the list must select Line 1 (Virtual Audio Cabel).
+
 • On the "Media" tab, select "Open URL ..." and enter the network address, then click "Play".
 Do not close the program before the end of the broadcast!
       
